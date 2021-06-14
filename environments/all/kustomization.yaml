@@ -1,0 +1,4 @@
+resources:
+  - global.yaml
+bases:
+  - ./apps/spam

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: one
+data:
+  a.datasource.username: IUGIYGIU9
+  URL_GHOST: https://ghost/omen/toast/

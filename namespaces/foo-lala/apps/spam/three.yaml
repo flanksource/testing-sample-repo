@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: three
+data:
+  # ↓ Inconsistent/misnamed connection values ↓
+  URL_GHOST_DATA: https://spooky:8080/omen/
+  URL_POAST_HOST: http://poast:8080/spicy

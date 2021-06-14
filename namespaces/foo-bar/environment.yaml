@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: environment
+data:
+  a.datasource.url: a/data/source/url
+  host: foo-bar.build.pap.zim.bim.dim

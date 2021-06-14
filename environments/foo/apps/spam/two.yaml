@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: two-environment-class
+data:
+  URL_GHOST_DATA: https://ghost:8080/
+  URL_TOAST_HOST: http://toast:8080/burnt

@@ -1,0 +1,9 @@
+resources:
+  - one.yaml
+  - one-sealedsecret.yaml
+  - two.yaml
+  - two-properties.yaml
+  - three.yaml
+  - four.yaml
+  - five.yaml
+  - six.yaml

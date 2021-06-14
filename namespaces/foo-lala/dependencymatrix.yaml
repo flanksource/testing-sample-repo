@@ -1,0 +1,20 @@
+apiVersion: services.lalala.io/v1
+metadata:
+  name: foo-lala
+  namespace: foo-lala
+kind: DependencyMatrix
+spec:
+  services:
+    One:
+      version: 2.10.108
+    Two:
+      version: 3.60.23
+      # AdvisorWebClaim
+    Three:
+      version: 4.20.19
+    Four:
+      version: 2.10.87
+    Five:
+      version: 3.10.74
+    Six:
+      version: 4.10.74

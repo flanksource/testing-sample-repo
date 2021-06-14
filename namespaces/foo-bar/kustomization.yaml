@@ -1,0 +1,8 @@
+namespace: foo-bar
+resources:
+  - environment.yaml
+  - dependencymatrix.yaml
+bases:
+  - ../../environments/all
+  - ../../environments/bar
+  - ./apps/spam

@@ -1,0 +1,5 @@
+resources:
+  - environment-class.yaml
+  - environment-class-sealedsecret.yaml
+bases:
+  - ./apps/spam

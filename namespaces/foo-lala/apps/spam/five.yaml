@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: five
+data:
+  URL_MOST: https://ghost/omen/most
+  no_proxy: ""
+  NO_PROXY: ""

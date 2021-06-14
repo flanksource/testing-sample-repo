@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: global
+data:
+  http_proxy_nonproxy_hosts: ""
+  no_proxy: ""
+  NO_PROXY: ""
